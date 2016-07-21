@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+ 
+
+<input type="text" id="revString">
+<input type="button" id="reverseButton" onclick="reverseString()" value="Reverse">
+
+
+<script>
+
+var reverseString=function(){
+var s=document.getElementById("revString").value
+var r=s.split("").reverse().join("");
+document.getElementById("revString").value =r;
+};
+
+</script>
+</body>
+</html>
